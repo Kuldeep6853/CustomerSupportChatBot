@@ -1,7 +1,7 @@
 
 (function (){
     
-    const api_Url="https://customer-support-chat-bot-4i7d.vercel.app/api/chat";
+    const api_Url="http://localhost:3000/api/chat";
 
     const scriptTag=document.currentScript;
     const ownerId=scriptTag.getAttribute("data-owner-id")
